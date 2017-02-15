@@ -1,0 +1,1224 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		228EEFC85159A3BD79CDFD55 /* libPods-ATSAppStructureTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50FE0EDEBCA1F886D6018F22 /* libPods-ATSAppStructureTests.a */; };
+		5025BA261E540160006BD002 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BA251E540160006BD002 /* main.m */; };
+		5025BA291E540160006BD002 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BA281E540160006BD002 /* AppDelegate.m */; };
+		5025BA2C1E540160006BD002 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BA2B1E540160006BD002 /* ViewController.m */; };
+		5025BA2F1E540160006BD002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5025BA2D1E540160006BD002 /* Main.storyboard */; };
+		5025BA311E540160006BD002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5025BA301E540160006BD002 /* Assets.xcassets */; };
+		5025BA341E540160006BD002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5025BA321E540160006BD002 /* LaunchScreen.storyboard */; };
+		5025BA3F1E540160006BD002 /* ATSAppStructureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BA3E1E540160006BD002 /* ATSAppStructureTests.m */; };
+		5025BA4A1E540160006BD002 /* ATSAppStructureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BA491E540160006BD002 /* ATSAppStructureUITests.m */; };
+		5025BAC91E540595006BD002 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BA901E540595006BD002 /* UIColor+Hex.m */; };
+		5025BACA1E540595006BD002 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BA901E540595006BD002 /* UIColor+Hex.m */; };
+		5025BACB1E540595006BD002 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BA901E540595006BD002 /* UIColor+Hex.m */; };
+		5025BACC1E540595006BD002 /* UIFont+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BA921E540595006BD002 /* UIFont+EX.m */; };
+		5025BACD1E540595006BD002 /* UIFont+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BA921E540595006BD002 /* UIFont+EX.m */; };
+		5025BACE1E540595006BD002 /* UIFont+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BA921E540595006BD002 /* UIFont+EX.m */; };
+		5025BACF1E540595006BD002 /* UIImage+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BA941E540595006BD002 /* UIImage+EX.m */; };
+		5025BAD01E540595006BD002 /* UIImage+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BA941E540595006BD002 /* UIImage+EX.m */; };
+		5025BAD11E540595006BD002 /* UIImage+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BA941E540595006BD002 /* UIImage+EX.m */; };
+		5025BAD21E540595006BD002 /* UIViewController+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BA961E540595006BD002 /* UIViewController+Loading.m */; };
+		5025BAD31E540595006BD002 /* UIViewController+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BA961E540595006BD002 /* UIViewController+Loading.m */; };
+		5025BAD41E540595006BD002 /* UIViewController+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BA961E540595006BD002 /* UIViewController+Loading.m */; };
+		5025BAD51E540595006BD002 /* UIViewController+ModalPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BA981E540595006BD002 /* UIViewController+ModalPresent.m */; };
+		5025BAD61E540595006BD002 /* UIViewController+ModalPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BA981E540595006BD002 /* UIViewController+ModalPresent.m */; };
+		5025BAD71E540595006BD002 /* UIViewController+ModalPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BA981E540595006BD002 /* UIViewController+ModalPresent.m */; };
+		5025BAE11E540595006BD002 /* TTLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BAA31E540595006BD002 /* TTLoadingView.m */; };
+		5025BAE21E540595006BD002 /* TTLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BAA31E540595006BD002 /* TTLoadingView.m */; };
+		5025BAE31E540595006BD002 /* TTLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BAA31E540595006BD002 /* TTLoadingView.m */; };
+		5025BAE81E54235B006BD002 /* ATSAppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BAE71E54235B006BD002 /* ATSAppConfig.m */; };
+		5025BAE91E54235B006BD002 /* ATSAppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BAE71E54235B006BD002 /* ATSAppConfig.m */; };
+		5025BAEA1E54235B006BD002 /* ATSAppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BAE71E54235B006BD002 /* ATSAppConfig.m */; };
+		5025BAEF1E5423A7006BD002 /* ATSURLConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BAEE1E5423A7006BD002 /* ATSURLConfig.m */; };
+		5025BAF01E5423A7006BD002 /* ATSURLConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BAEE1E5423A7006BD002 /* ATSURLConfig.m */; };
+		5025BAF11E5423A7006BD002 /* ATSURLConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BAEE1E5423A7006BD002 /* ATSURLConfig.m */; };
+		5025BAF91E542533006BD002 /* ATSServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BAF81E542533006BD002 /* ATSServiceFactory.m */; };
+		5025BAFA1E542533006BD002 /* ATSServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BAF81E542533006BD002 /* ATSServiceFactory.m */; };
+		5025BAFB1E542533006BD002 /* ATSServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BAF81E542533006BD002 /* ATSServiceFactory.m */; };
+		5025BAFE1E5425A1006BD002 /* ATSCurrentUserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BAFD1E5425A1006BD002 /* ATSCurrentUserService.m */; };
+		5025BAFF1E5425A1006BD002 /* ATSCurrentUserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BAFD1E5425A1006BD002 /* ATSCurrentUserService.m */; };
+		5025BB001E5425A1006BD002 /* ATSCurrentUserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BAFD1E5425A1006BD002 /* ATSCurrentUserService.m */; };
+		5025BB031E542681006BD002 /* ATSTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB021E542681006BD002 /* ATSTableViewAdapter.m */; };
+		5025BB041E542681006BD002 /* ATSTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB021E542681006BD002 /* ATSTableViewAdapter.m */; };
+		5025BB051E542681006BD002 /* ATSTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB021E542681006BD002 /* ATSTableViewAdapter.m */; };
+		5025BB081E54282C006BD002 /* ATSModuleInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB071E54282C006BD002 /* ATSModuleInteractor.m */; };
+		5025BB091E54282C006BD002 /* ATSModuleInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB071E54282C006BD002 /* ATSModuleInteractor.m */; };
+		5025BB0A1E54282C006BD002 /* ATSModuleInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB071E54282C006BD002 /* ATSModuleInteractor.m */; };
+		5025BB0D1E542B5D006BD002 /* ATSBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB0C1E542B5D006BD002 /* ATSBaseNavigationViewController.m */; };
+		5025BB0E1E542B5D006BD002 /* ATSBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB0C1E542B5D006BD002 /* ATSBaseNavigationViewController.m */; };
+		5025BB0F1E542B5D006BD002 /* ATSBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB0C1E542B5D006BD002 /* ATSBaseNavigationViewController.m */; };
+		5025BB121E542BA2006BD002 /* ATSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB111E542BA2006BD002 /* ATSBaseViewController.m */; };
+		5025BB131E542BA2006BD002 /* ATSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB111E542BA2006BD002 /* ATSBaseViewController.m */; };
+		5025BB141E542BA2006BD002 /* ATSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB111E542BA2006BD002 /* ATSBaseViewController.m */; };
+		5025BB171E542BE7006BD002 /* ATSLandscapeNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB161E542BE7006BD002 /* ATSLandscapeNavigationViewController.m */; };
+		5025BB181E542BE7006BD002 /* ATSLandscapeNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB161E542BE7006BD002 /* ATSLandscapeNavigationViewController.m */; };
+		5025BB191E542BE7006BD002 /* ATSLandscapeNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB161E542BE7006BD002 /* ATSLandscapeNavigationViewController.m */; };
+		5025BB1C1E542EE1006BD002 /* ATSHTTPBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB1B1E542EE1006BD002 /* ATSHTTPBaseRequest.m */; };
+		5025BB1D1E542EE1006BD002 /* ATSHTTPBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB1B1E542EE1006BD002 /* ATSHTTPBaseRequest.m */; };
+		5025BB1E1E542EE1006BD002 /* ATSHTTPBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB1B1E542EE1006BD002 /* ATSHTTPBaseRequest.m */; };
+		5025BB211E543004006BD002 /* ATSAPNUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB201E543004006BD002 /* ATSAPNUtility.m */; };
+		5025BB221E543004006BD002 /* ATSAPNUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB201E543004006BD002 /* ATSAPNUtility.m */; };
+		5025BB231E543004006BD002 /* ATSAPNUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB201E543004006BD002 /* ATSAPNUtility.m */; };
+		5025BB261E5430A6006BD002 /* ATSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB251E5430A6006BD002 /* ATSLog.m */; };
+		5025BB271E5430A6006BD002 /* ATSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB251E5430A6006BD002 /* ATSLog.m */; };
+		5025BB281E5430A6006BD002 /* ATSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB251E5430A6006BD002 /* ATSLog.m */; };
+		5025BB311E5431DF006BD002 /* ATSAppInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB301E5431DF006BD002 /* ATSAppInteractor.m */; };
+		5025BB321E5431DF006BD002 /* ATSAppInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB301E5431DF006BD002 /* ATSAppInteractor.m */; };
+		5025BB331E5431DF006BD002 /* ATSAppInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB301E5431DF006BD002 /* ATSAppInteractor.m */; };
+		5025BB3D1E543B03006BD002 /* DAOBaseImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB351E543B03006BD002 /* DAOBaseImpl.m */; };
+		5025BB3E1E543B03006BD002 /* DAOBaseImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB351E543B03006BD002 /* DAOBaseImpl.m */; };
+		5025BB3F1E543B03006BD002 /* DAOBaseImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB351E543B03006BD002 /* DAOBaseImpl.m */; };
+		5025BB401E543B03006BD002 /* DAOFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB371E543B03006BD002 /* DAOFactory.m */; };
+		5025BB411E543B03006BD002 /* DAOFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB371E543B03006BD002 /* DAOFactory.m */; };
+		5025BB421E543B03006BD002 /* DAOFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB371E543B03006BD002 /* DAOFactory.m */; };
+		5025BB4A1E543C73006BD002 /* TemplateDAOImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB491E543C73006BD002 /* TemplateDAOImpl.m */; };
+		5025BB4B1E543C73006BD002 /* TemplateDAOImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB491E543C73006BD002 /* TemplateDAOImpl.m */; };
+		5025BB4C1E543C73006BD002 /* TemplateDAOImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025BB491E543C73006BD002 /* TemplateDAOImpl.m */; };
+		55B8259B692D2439A8C92731 /* libPods-ATSAppStructureUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E813948B30918634E596B88F /* libPods-ATSAppStructureUITests.a */; };
+		F8D53B3701EBD2A873D7A254 /* libPods-ATSAppStructure.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0503EF212B8C16AB0E047E44 /* libPods-ATSAppStructure.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5025BA3B1E540160006BD002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5025BA191E540160006BD002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5025BA201E540160006BD002;
+			remoteInfo = ATSAppStructure;
+		};
+		5025BA461E540160006BD002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5025BA191E540160006BD002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5025BA201E540160006BD002;
+			remoteInfo = ATSAppStructure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0503EF212B8C16AB0E047E44 /* libPods-ATSAppStructure.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ATSAppStructure.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39228718D50C333FF91A899B /* Pods-ATSAppStructureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATSAppStructureTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATSAppStructureTests/Pods-ATSAppStructureTests.release.xcconfig"; sourceTree = "<group>"; };
+		3E8A6038A41C222939C7A544 /* Pods-ATSAppStructure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATSAppStructure.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATSAppStructure/Pods-ATSAppStructure.debug.xcconfig"; sourceTree = "<group>"; };
+		5025BA211E540160006BD002 /* ATSAppStructure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATSAppStructure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5025BA251E540160006BD002 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5025BA271E540160006BD002 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5025BA281E540160006BD002 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5025BA2A1E540160006BD002 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5025BA2B1E540160006BD002 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5025BA2E1E540160006BD002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5025BA301E540160006BD002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5025BA331E540160006BD002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5025BA351E540160006BD002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5025BA3A1E540160006BD002 /* ATSAppStructureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATSAppStructureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5025BA3E1E540160006BD002 /* ATSAppStructureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATSAppStructureTests.m; sourceTree = "<group>"; };
+		5025BA401E540160006BD002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5025BA451E540160006BD002 /* ATSAppStructureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATSAppStructureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5025BA491E540160006BD002 /* ATSAppStructureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATSAppStructureUITests.m; sourceTree = "<group>"; };
+		5025BA4B1E540160006BD002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5025BA8F1E540595006BD002 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		5025BA901E540595006BD002 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		5025BA911E540595006BD002 /* UIFont+EX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+EX.h"; sourceTree = "<group>"; };
+		5025BA921E540595006BD002 /* UIFont+EX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+EX.m"; sourceTree = "<group>"; };
+		5025BA931E540595006BD002 /* UIImage+EX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+EX.h"; sourceTree = "<group>"; };
+		5025BA941E540595006BD002 /* UIImage+EX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+EX.m"; sourceTree = "<group>"; };
+		5025BA951E540595006BD002 /* UIViewController+Loading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Loading.h"; sourceTree = "<group>"; };
+		5025BA961E540595006BD002 /* UIViewController+Loading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Loading.m"; sourceTree = "<group>"; };
+		5025BA971E540595006BD002 /* UIViewController+ModalPresent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ModalPresent.h"; sourceTree = "<group>"; };
+		5025BA981E540595006BD002 /* UIViewController+ModalPresent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ModalPresent.m"; sourceTree = "<group>"; };
+		5025BAA21E540595006BD002 /* TTLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLoadingView.h; sourceTree = "<group>"; };
+		5025BAA31E540595006BD002 /* TTLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLoadingView.m; sourceTree = "<group>"; };
+		5025BAE41E542321006BD002 /* ATSSharedConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATSSharedConfig.h; sourceTree = "<group>"; };
+		5025BAE61E54235B006BD002 /* ATSAppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATSAppConfig.h; sourceTree = "<group>"; };
+		5025BAE71E54235B006BD002 /* ATSAppConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATSAppConfig.m; sourceTree = "<group>"; };
+		5025BAEB1E542378006BD002 /* ATSDeviceMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATSDeviceMacro.h; sourceTree = "<group>"; };
+		5025BAEC1E542391006BD002 /* ATSUIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATSUIConfig.h; sourceTree = "<group>"; };
+		5025BAED1E5423A7006BD002 /* ATSURLConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATSURLConfig.h; sourceTree = "<group>"; };
+		5025BAEE1E5423A7006BD002 /* ATSURLConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATSURLConfig.m; sourceTree = "<group>"; };
+		5025BAF71E542533006BD002 /* ATSServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATSServiceFactory.h; sourceTree = "<group>"; };
+		5025BAF81E542533006BD002 /* ATSServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATSServiceFactory.m; sourceTree = "<group>"; };
+		5025BAFC1E5425A1006BD002 /* ATSCurrentUserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATSCurrentUserService.h; sourceTree = "<group>"; };
+		5025BAFD1E5425A1006BD002 /* ATSCurrentUserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATSCurrentUserService.m; sourceTree = "<group>"; };
+		5025BB011E542681006BD002 /* ATSTableViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATSTableViewAdapter.h; sourceTree = "<group>"; };
+		5025BB021E542681006BD002 /* ATSTableViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATSTableViewAdapter.m; sourceTree = "<group>"; };
+		5025BB061E54282C006BD002 /* ATSModuleInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATSModuleInteractor.h; sourceTree = "<group>"; };
+		5025BB071E54282C006BD002 /* ATSModuleInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATSModuleInteractor.m; sourceTree = "<group>"; };
+		5025BB0B1E542B5D006BD002 /* ATSBaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATSBaseNavigationViewController.h; sourceTree = "<group>"; };
+		5025BB0C1E542B5D006BD002 /* ATSBaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATSBaseNavigationViewController.m; sourceTree = "<group>"; };
+		5025BB101E542BA2006BD002 /* ATSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATSBaseViewController.h; sourceTree = "<group>"; };
+		5025BB111E542BA2006BD002 /* ATSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATSBaseViewController.m; sourceTree = "<group>"; };
+		5025BB151E542BE7006BD002 /* ATSLandscapeNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATSLandscapeNavigationViewController.h; sourceTree = "<group>"; };
+		5025BB161E542BE7006BD002 /* ATSLandscapeNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATSLandscapeNavigationViewController.m; sourceTree = "<group>"; };
+		5025BB1A1E542EE1006BD002 /* ATSHTTPBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATSHTTPBaseRequest.h; sourceTree = "<group>"; };
+		5025BB1B1E542EE1006BD002 /* ATSHTTPBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATSHTTPBaseRequest.m; sourceTree = "<group>"; };
+		5025BB1F1E543004006BD002 /* ATSAPNUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATSAPNUtility.h; sourceTree = "<group>"; };
+		5025BB201E543004006BD002 /* ATSAPNUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATSAPNUtility.m; sourceTree = "<group>"; };
+		5025BB241E5430A6006BD002 /* ATSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATSLog.h; sourceTree = "<group>"; };
+		5025BB251E5430A6006BD002 /* ATSLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATSLog.m; sourceTree = "<group>"; };
+		5025BB2F1E5431DF006BD002 /* ATSAppInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATSAppInteractor.h; sourceTree = "<group>"; };
+		5025BB301E5431DF006BD002 /* ATSAppInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATSAppInteractor.m; sourceTree = "<group>"; };
+		5025BB341E543B03006BD002 /* DAOBaseImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAOBaseImpl.h; sourceTree = "<group>"; };
+		5025BB351E543B03006BD002 /* DAOBaseImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAOBaseImpl.m; sourceTree = "<group>"; };
+		5025BB361E543B03006BD002 /* DAOFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAOFactory.h; sourceTree = "<group>"; };
+		5025BB371E543B03006BD002 /* DAOFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAOFactory.m; sourceTree = "<group>"; };
+		5025BB471E543C46006BD002 /* TemplateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateProtocol.h; sourceTree = "<group>"; };
+		5025BB481E543C73006BD002 /* TemplateDAOImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateDAOImpl.h; sourceTree = "<group>"; };
+		5025BB491E543C73006BD002 /* TemplateDAOImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplateDAOImpl.m; sourceTree = "<group>"; };
+		50FE0EDEBCA1F886D6018F22 /* libPods-ATSAppStructureTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ATSAppStructureTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		906442D37FAC2209FDB9427D /* Pods-ATSAppStructure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATSAppStructure.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATSAppStructure/Pods-ATSAppStructure.release.xcconfig"; sourceTree = "<group>"; };
+		9DFA253E9B1C3323F7AA7329 /* Pods-ATSAppStructureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATSAppStructureTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATSAppStructureTests/Pods-ATSAppStructureTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF7777A657F6FB0B3978E831 /* Pods-ATSAppStructureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATSAppStructureUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATSAppStructureUITests/Pods-ATSAppStructureUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDC336435C2BB40533812D07 /* Pods-ATSAppStructureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATSAppStructureUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATSAppStructureUITests/Pods-ATSAppStructureUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E813948B30918634E596B88F /* libPods-ATSAppStructureUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ATSAppStructureUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5025BA1E1E540160006BD002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D53B3701EBD2A873D7A254 /* libPods-ATSAppStructure.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5025BA371E540160006BD002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228EEFC85159A3BD79CDFD55 /* libPods-ATSAppStructureTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5025BA421E540160006BD002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B8259B692D2439A8C92731 /* libPods-ATSAppStructureUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0860796C9A59CC9369F66019 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E8A6038A41C222939C7A544 /* Pods-ATSAppStructure.debug.xcconfig */,
+				906442D37FAC2209FDB9427D /* Pods-ATSAppStructure.release.xcconfig */,
+				9DFA253E9B1C3323F7AA7329 /* Pods-ATSAppStructureTests.debug.xcconfig */,
+				39228718D50C333FF91A899B /* Pods-ATSAppStructureTests.release.xcconfig */,
+				AF7777A657F6FB0B3978E831 /* Pods-ATSAppStructureUITests.debug.xcconfig */,
+				BDC336435C2BB40533812D07 /* Pods-ATSAppStructureUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4DC94C1A94B2E95F51AC5B7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0503EF212B8C16AB0E047E44 /* libPods-ATSAppStructure.a */,
+				50FE0EDEBCA1F886D6018F22 /* libPods-ATSAppStructureTests.a */,
+				E813948B30918634E596B88F /* libPods-ATSAppStructureUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5025BA181E540160006BD002 = {
+			isa = PBXGroup;
+			children = (
+				5025BA231E540160006BD002 /* ATSAppStructure */,
+				5025BA3D1E540160006BD002 /* ATSAppStructureTests */,
+				5025BA481E540160006BD002 /* ATSAppStructureUITests */,
+				5025BA221E540160006BD002 /* Products */,
+				0860796C9A59CC9369F66019 /* Pods */,
+				4DC94C1A94B2E95F51AC5B7E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5025BA221E540160006BD002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5025BA211E540160006BD002 /* ATSAppStructure.app */,
+				5025BA3A1E540160006BD002 /* ATSAppStructureTests.xctest */,
+				5025BA451E540160006BD002 /* ATSAppStructureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5025BA231E540160006BD002 /* ATSAppStructure */ = {
+			isa = PBXGroup;
+			children = (
+				5025BA581E540595006BD002 /* Common */,
+				5025BA6A1E540595006BD002 /* Feature */,
+				5025BA8D1E540595006BD002 /* Legacy */,
+				5025BAA41E540595006BD002 /* Resource */,
+				5025BA271E540160006BD002 /* AppDelegate.h */,
+				5025BA281E540160006BD002 /* AppDelegate.m */,
+				5025BA2A1E540160006BD002 /* ViewController.h */,
+				5025BA2B1E540160006BD002 /* ViewController.m */,
+				5025BA2D1E540160006BD002 /* Main.storyboard */,
+				5025BA301E540160006BD002 /* Assets.xcassets */,
+				5025BA321E540160006BD002 /* LaunchScreen.storyboard */,
+				5025BA351E540160006BD002 /* Info.plist */,
+				5025BA241E540160006BD002 /* Supporting Files */,
+			);
+			path = ATSAppStructure;
+			sourceTree = "<group>";
+		};
+		5025BA241E540160006BD002 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5025BA251E540160006BD002 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5025BA3D1E540160006BD002 /* ATSAppStructureTests */ = {
+			isa = PBXGroup;
+			children = (
+				5025BA3E1E540160006BD002 /* ATSAppStructureTests.m */,
+				5025BA401E540160006BD002 /* Info.plist */,
+			);
+			path = ATSAppStructureTests;
+			sourceTree = "<group>";
+		};
+		5025BA481E540160006BD002 /* ATSAppStructureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5025BA491E540160006BD002 /* ATSAppStructureUITests.m */,
+				5025BA4B1E540160006BD002 /* Info.plist */,
+			);
+			path = ATSAppStructureUITests;
+			sourceTree = "<group>";
+		};
+		5025BA581E540595006BD002 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5025BB291E5431C7006BD002 /* APPEnterLogic */,
+				5025BA591E540595006BD002 /* AppConfig */,
+				5025BA601E540595006BD002 /* LogicServices */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5025BA591E540595006BD002 /* AppConfig */ = {
+			isa = PBXGroup;
+			children = (
+				5025BAE41E542321006BD002 /* ATSSharedConfig.h */,
+				5025BAE61E54235B006BD002 /* ATSAppConfig.h */,
+				5025BAE71E54235B006BD002 /* ATSAppConfig.m */,
+				5025BAEB1E542378006BD002 /* ATSDeviceMacro.h */,
+				5025BAEC1E542391006BD002 /* ATSUIConfig.h */,
+				5025BAED1E5423A7006BD002 /* ATSURLConfig.h */,
+				5025BAEE1E5423A7006BD002 /* ATSURLConfig.m */,
+			);
+			path = AppConfig;
+			sourceTree = "<group>";
+		};
+		5025BA601E540595006BD002 /* LogicServices */ = {
+			isa = PBXGroup;
+			children = (
+				5025BA611E540595006BD002 /* DAO */,
+				5025BA641E540595006BD002 /* Service */,
+			);
+			path = LogicServices;
+			sourceTree = "<group>";
+		};
+		5025BA611E540595006BD002 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				5025BB341E543B03006BD002 /* DAOBaseImpl.h */,
+				5025BB351E543B03006BD002 /* DAOBaseImpl.m */,
+				5025BB361E543B03006BD002 /* DAOFactory.h */,
+				5025BB371E543B03006BD002 /* DAOFactory.m */,
+				5025BB381E543B03006BD002 /* DAOImplements */,
+				5025BB3B1E543B03006BD002 /* DAOProtocols */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		5025BA641E540595006BD002 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5025BAF71E542533006BD002 /* ATSServiceFactory.h */,
+				5025BAF81E542533006BD002 /* ATSServiceFactory.m */,
+				5025BA671E540595006BD002 /* CurrentUserService */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5025BA671E540595006BD002 /* CurrentUserService */ = {
+			isa = PBXGroup;
+			children = (
+				5025BAFC1E5425A1006BD002 /* ATSCurrentUserService.h */,
+				5025BAFD1E5425A1006BD002 /* ATSCurrentUserService.m */,
+			);
+			path = CurrentUserService;
+			sourceTree = "<group>";
+		};
+		5025BA6A1E540595006BD002 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				5025BA6B1E540595006BD002 /* BaseClass */,
+				5025BA7B1E540595006BD002 /* LoginClass */,
+				5025BA851E540595006BD002 /* MainClass */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		5025BA6B1E540595006BD002 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				5025BA6C1E540595006BD002 /* Adapter */,
+				5025BA6F1E540595006BD002 /* Interactor */,
+				5025BA721E540595006BD002 /* Model */,
+				5025BA731E540595006BD002 /* View */,
+				5025BA741E540595006BD002 /* ViewController */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		5025BA6C1E540595006BD002 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				5025BB011E542681006BD002 /* ATSTableViewAdapter.h */,
+				5025BB021E542681006BD002 /* ATSTableViewAdapter.m */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		5025BA6F1E540595006BD002 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				5025BB061E54282C006BD002 /* ATSModuleInteractor.h */,
+				5025BB071E54282C006BD002 /* ATSModuleInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		5025BA721E540595006BD002 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5025BA731E540595006BD002 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5025BA741E540595006BD002 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5025BB0B1E542B5D006BD002 /* ATSBaseNavigationViewController.h */,
+				5025BB0C1E542B5D006BD002 /* ATSBaseNavigationViewController.m */,
+				5025BB101E542BA2006BD002 /* ATSBaseViewController.h */,
+				5025BB111E542BA2006BD002 /* ATSBaseViewController.m */,
+				5025BB151E542BE7006BD002 /* ATSLandscapeNavigationViewController.h */,
+				5025BB161E542BE7006BD002 /* ATSLandscapeNavigationViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5025BA7B1E540595006BD002 /* LoginClass */ = {
+			isa = PBXGroup;
+			children = (
+				5025BA7C1E540595006BD002 /* Adapter */,
+				5025BA7D1E540595006BD002 /* Interactor */,
+				5025BA801E540595006BD002 /* Model */,
+				5025BA811E540595006BD002 /* View */,
+				5025BA821E540595006BD002 /* ViewController */,
+			);
+			path = LoginClass;
+			sourceTree = "<group>";
+		};
+		5025BA7C1E540595006BD002 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		5025BA7D1E540595006BD002 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		5025BA801E540595006BD002 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5025BA811E540595006BD002 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5025BA821E540595006BD002 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5025BA851E540595006BD002 /* MainClass */ = {
+			isa = PBXGroup;
+			children = (
+				5025BA861E540595006BD002 /* Adapter */,
+				5025BA871E540595006BD002 /* Interactor */,
+				5025BA881E540595006BD002 /* Model */,
+				5025BA891E540595006BD002 /* View */,
+				5025BA8A1E540595006BD002 /* ViewController */,
+			);
+			path = MainClass;
+			sourceTree = "<group>";
+		};
+		5025BA861E540595006BD002 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		5025BA871E540595006BD002 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		5025BA881E540595006BD002 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5025BA891E540595006BD002 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5025BA8A1E540595006BD002 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5025BA8D1E540595006BD002 /* Legacy */ = {
+			isa = PBXGroup;
+			children = (
+				5025BA8E1E540595006BD002 /* Category */,
+				5025BA991E540595006BD002 /* Networking */,
+				5025BA9D1E540595006BD002 /* Utility */,
+			);
+			path = Legacy;
+			sourceTree = "<group>";
+		};
+		5025BA8E1E540595006BD002 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5025BA8F1E540595006BD002 /* UIColor+Hex.h */,
+				5025BA901E540595006BD002 /* UIColor+Hex.m */,
+				5025BA911E540595006BD002 /* UIFont+EX.h */,
+				5025BA921E540595006BD002 /* UIFont+EX.m */,
+				5025BA931E540595006BD002 /* UIImage+EX.h */,
+				5025BA941E540595006BD002 /* UIImage+EX.m */,
+				5025BA951E540595006BD002 /* UIViewController+Loading.h */,
+				5025BA961E540595006BD002 /* UIViewController+Loading.m */,
+				5025BA971E540595006BD002 /* UIViewController+ModalPresent.h */,
+				5025BA981E540595006BD002 /* UIViewController+ModalPresent.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5025BA991E540595006BD002 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5025BA9A1E540595006BD002 /* HTTPBaseRequest */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		5025BA9A1E540595006BD002 /* HTTPBaseRequest */ = {
+			isa = PBXGroup;
+			children = (
+				5025BB1A1E542EE1006BD002 /* ATSHTTPBaseRequest.h */,
+				5025BB1B1E542EE1006BD002 /* ATSHTTPBaseRequest.m */,
+			);
+			path = HTTPBaseRequest;
+			sourceTree = "<group>";
+		};
+		5025BA9D1E540595006BD002 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				5025BB1F1E543004006BD002 /* ATSAPNUtility.h */,
+				5025BB201E543004006BD002 /* ATSAPNUtility.m */,
+				5025BB241E5430A6006BD002 /* ATSLog.h */,
+				5025BB251E5430A6006BD002 /* ATSLog.m */,
+				5025BAA21E540595006BD002 /* TTLoadingView.h */,
+				5025BAA31E540595006BD002 /* TTLoadingView.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		5025BAA41E540595006BD002 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		5025BB291E5431C7006BD002 /* APPEnterLogic */ = {
+			isa = PBXGroup;
+			children = (
+				5025BB2F1E5431DF006BD002 /* ATSAppInteractor.h */,
+				5025BB301E5431DF006BD002 /* ATSAppInteractor.m */,
+			);
+			path = APPEnterLogic;
+			sourceTree = "<group>";
+		};
+		5025BB381E543B03006BD002 /* DAOImplements */ = {
+			isa = PBXGroup;
+			children = (
+				5025BB481E543C73006BD002 /* TemplateDAOImpl.h */,
+				5025BB491E543C73006BD002 /* TemplateDAOImpl.m */,
+			);
+			path = DAOImplements;
+			sourceTree = "<group>";
+		};
+		5025BB3B1E543B03006BD002 /* DAOProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				5025BB471E543C46006BD002 /* TemplateProtocol.h */,
+			);
+			path = DAOProtocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5025BA201E540160006BD002 /* ATSAppStructure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5025BA4E1E540160006BD002 /* Build configuration list for PBXNativeTarget "ATSAppStructure" */;
+			buildPhases = (
+				3B5C4C7AFB25C5A1AC7B2A3B /* [CP] Check Pods Manifest.lock */,
+				5025BA1D1E540160006BD002 /* Sources */,
+				5025BA1E1E540160006BD002 /* Frameworks */,
+				5025BA1F1E540160006BD002 /* Resources */,
+				2D639739EDA8C50629DF4B6A /* [CP] Embed Pods Frameworks */,
+				19D1CE858A3CF0B7350AF6C3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATSAppStructure;
+			productName = ATSAppStructure;
+			productReference = 5025BA211E540160006BD002 /* ATSAppStructure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5025BA391E540160006BD002 /* ATSAppStructureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5025BA511E540160006BD002 /* Build configuration list for PBXNativeTarget "ATSAppStructureTests" */;
+			buildPhases = (
+				0827A4B1A1537924DAA899EA /* [CP] Check Pods Manifest.lock */,
+				5025BA361E540160006BD002 /* Sources */,
+				5025BA371E540160006BD002 /* Frameworks */,
+				5025BA381E540160006BD002 /* Resources */,
+				8CD7A50E0CD6F3E710D29F9C /* [CP] Embed Pods Frameworks */,
+				E3E49CE4F6A50BE3536A904F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5025BA3C1E540160006BD002 /* PBXTargetDependency */,
+			);
+			name = ATSAppStructureTests;
+			productName = ATSAppStructureTests;
+			productReference = 5025BA3A1E540160006BD002 /* ATSAppStructureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5025BA441E540160006BD002 /* ATSAppStructureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5025BA541E540160006BD002 /* Build configuration list for PBXNativeTarget "ATSAppStructureUITests" */;
+			buildPhases = (
+				5C4DA57638E4DD94AB418794 /* [CP] Check Pods Manifest.lock */,
+				5025BA411E540160006BD002 /* Sources */,
+				5025BA421E540160006BD002 /* Frameworks */,
+				5025BA431E540160006BD002 /* Resources */,
+				AF2D4CA5A86A3ABBA2C7F67F /* [CP] Embed Pods Frameworks */,
+				1CD5C3841D82F16916F675A8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5025BA471E540160006BD002 /* PBXTargetDependency */,
+			);
+			name = ATSAppStructureUITests;
+			productName = ATSAppStructureUITests;
+			productReference = 5025BA451E540160006BD002 /* ATSAppStructureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5025BA191E540160006BD002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = AndrewShen;
+				TargetAttributes = {
+					5025BA201E540160006BD002 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5025BA391E540160006BD002 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5025BA201E540160006BD002;
+					};
+					5025BA441E540160006BD002 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5025BA201E540160006BD002;
+					};
+				};
+			};
+			buildConfigurationList = 5025BA1C1E540160006BD002 /* Build configuration list for PBXProject "ATSAppStructure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5025BA181E540160006BD002;
+			productRefGroup = 5025BA221E540160006BD002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5025BA201E540160006BD002 /* ATSAppStructure */,
+				5025BA391E540160006BD002 /* ATSAppStructureTests */,
+				5025BA441E540160006BD002 /* ATSAppStructureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5025BA1F1E540160006BD002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5025BA341E540160006BD002 /* LaunchScreen.storyboard in Resources */,
+				5025BA311E540160006BD002 /* Assets.xcassets in Resources */,
+				5025BA2F1E540160006BD002 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5025BA381E540160006BD002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5025BA431E540160006BD002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0827A4B1A1537924DAA899EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		19D1CE858A3CF0B7350AF6C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATSAppStructure/Pods-ATSAppStructure-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CD5C3841D82F16916F675A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATSAppStructureUITests/Pods-ATSAppStructureUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D639739EDA8C50629DF4B6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATSAppStructure/Pods-ATSAppStructure-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B5C4C7AFB25C5A1AC7B2A3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5C4DA57638E4DD94AB418794 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8CD7A50E0CD6F3E710D29F9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATSAppStructureTests/Pods-ATSAppStructureTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF2D4CA5A86A3ABBA2C7F67F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATSAppStructureUITests/Pods-ATSAppStructureUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3E49CE4F6A50BE3536A904F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATSAppStructureTests/Pods-ATSAppStructureTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5025BA1D1E540160006BD002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5025BB031E542681006BD002 /* ATSTableViewAdapter.m in Sources */,
+				5025BAE81E54235B006BD002 /* ATSAppConfig.m in Sources */,
+				5025BAD51E540595006BD002 /* UIViewController+ModalPresent.m in Sources */,
+				5025BACF1E540595006BD002 /* UIImage+EX.m in Sources */,
+				5025BAE11E540595006BD002 /* TTLoadingView.m in Sources */,
+				5025BB121E542BA2006BD002 /* ATSBaseViewController.m in Sources */,
+				5025BB4A1E543C73006BD002 /* TemplateDAOImpl.m in Sources */,
+				5025BAC91E540595006BD002 /* UIColor+Hex.m in Sources */,
+				5025BB0D1E542B5D006BD002 /* ATSBaseNavigationViewController.m in Sources */,
+				5025BB401E543B03006BD002 /* DAOFactory.m in Sources */,
+				5025BB3D1E543B03006BD002 /* DAOBaseImpl.m in Sources */,
+				5025BB171E542BE7006BD002 /* ATSLandscapeNavigationViewController.m in Sources */,
+				5025BAD21E540595006BD002 /* UIViewController+Loading.m in Sources */,
+				5025BAF91E542533006BD002 /* ATSServiceFactory.m in Sources */,
+				5025BAFE1E5425A1006BD002 /* ATSCurrentUserService.m in Sources */,
+				5025BA2C1E540160006BD002 /* ViewController.m in Sources */,
+				5025BACC1E540595006BD002 /* UIFont+EX.m in Sources */,
+				5025BAEF1E5423A7006BD002 /* ATSURLConfig.m in Sources */,
+				5025BB311E5431DF006BD002 /* ATSAppInteractor.m in Sources */,
+				5025BA291E540160006BD002 /* AppDelegate.m in Sources */,
+				5025BA261E540160006BD002 /* main.m in Sources */,
+				5025BB081E54282C006BD002 /* ATSModuleInteractor.m in Sources */,
+				5025BB211E543004006BD002 /* ATSAPNUtility.m in Sources */,
+				5025BB261E5430A6006BD002 /* ATSLog.m in Sources */,
+				5025BB1C1E542EE1006BD002 /* ATSHTTPBaseRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5025BA361E540160006BD002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5025BAD01E540595006BD002 /* UIImage+EX.m in Sources */,
+				5025BB271E5430A6006BD002 /* ATSLog.m in Sources */,
+				5025BB411E543B03006BD002 /* DAOFactory.m in Sources */,
+				5025BB091E54282C006BD002 /* ATSModuleInteractor.m in Sources */,
+				5025BAD31E540595006BD002 /* UIViewController+Loading.m in Sources */,
+				5025BB221E543004006BD002 /* ATSAPNUtility.m in Sources */,
+				5025BB181E542BE7006BD002 /* ATSLandscapeNavigationViewController.m in Sources */,
+				5025BB321E5431DF006BD002 /* ATSAppInteractor.m in Sources */,
+				5025BB1D1E542EE1006BD002 /* ATSHTTPBaseRequest.m in Sources */,
+				5025BAD61E540595006BD002 /* UIViewController+ModalPresent.m in Sources */,
+				5025BB041E542681006BD002 /* ATSTableViewAdapter.m in Sources */,
+				5025BAFF1E5425A1006BD002 /* ATSCurrentUserService.m in Sources */,
+				5025BAFA1E542533006BD002 /* ATSServiceFactory.m in Sources */,
+				5025BB0E1E542B5D006BD002 /* ATSBaseNavigationViewController.m in Sources */,
+				5025BB4B1E543C73006BD002 /* TemplateDAOImpl.m in Sources */,
+				5025BAE91E54235B006BD002 /* ATSAppConfig.m in Sources */,
+				5025BAE21E540595006BD002 /* TTLoadingView.m in Sources */,
+				5025BA3F1E540160006BD002 /* ATSAppStructureTests.m in Sources */,
+				5025BB131E542BA2006BD002 /* ATSBaseViewController.m in Sources */,
+				5025BACD1E540595006BD002 /* UIFont+EX.m in Sources */,
+				5025BACA1E540595006BD002 /* UIColor+Hex.m in Sources */,
+				5025BAF01E5423A7006BD002 /* ATSURLConfig.m in Sources */,
+				5025BB3E1E543B03006BD002 /* DAOBaseImpl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5025BA411E540160006BD002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5025BAD11E540595006BD002 /* UIImage+EX.m in Sources */,
+				5025BB281E5430A6006BD002 /* ATSLog.m in Sources */,
+				5025BB421E543B03006BD002 /* DAOFactory.m in Sources */,
+				5025BB0A1E54282C006BD002 /* ATSModuleInteractor.m in Sources */,
+				5025BAD41E540595006BD002 /* UIViewController+Loading.m in Sources */,
+				5025BB231E543004006BD002 /* ATSAPNUtility.m in Sources */,
+				5025BB191E542BE7006BD002 /* ATSLandscapeNavigationViewController.m in Sources */,
+				5025BB331E5431DF006BD002 /* ATSAppInteractor.m in Sources */,
+				5025BB1E1E542EE1006BD002 /* ATSHTTPBaseRequest.m in Sources */,
+				5025BAD71E540595006BD002 /* UIViewController+ModalPresent.m in Sources */,
+				5025BB051E542681006BD002 /* ATSTableViewAdapter.m in Sources */,
+				5025BB001E5425A1006BD002 /* ATSCurrentUserService.m in Sources */,
+				5025BAFB1E542533006BD002 /* ATSServiceFactory.m in Sources */,
+				5025BB0F1E542B5D006BD002 /* ATSBaseNavigationViewController.m in Sources */,
+				5025BB4C1E543C73006BD002 /* TemplateDAOImpl.m in Sources */,
+				5025BAEA1E54235B006BD002 /* ATSAppConfig.m in Sources */,
+				5025BAE31E540595006BD002 /* TTLoadingView.m in Sources */,
+				5025BA4A1E540160006BD002 /* ATSAppStructureUITests.m in Sources */,
+				5025BB141E542BA2006BD002 /* ATSBaseViewController.m in Sources */,
+				5025BACE1E540595006BD002 /* UIFont+EX.m in Sources */,
+				5025BACB1E540595006BD002 /* UIColor+Hex.m in Sources */,
+				5025BAF11E5423A7006BD002 /* ATSURLConfig.m in Sources */,
+				5025BB3F1E543B03006BD002 /* DAOBaseImpl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5025BA3C1E540160006BD002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5025BA201E540160006BD002 /* ATSAppStructure */;
+			targetProxy = 5025BA3B1E540160006BD002 /* PBXContainerItemProxy */;
+		};
+		5025BA471E540160006BD002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5025BA201E540160006BD002 /* ATSAppStructure */;
+			targetProxy = 5025BA461E540160006BD002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5025BA2D1E540160006BD002 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5025BA2E1E540160006BD002 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5025BA321E540160006BD002 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5025BA331E540160006BD002 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5025BA4C1E540160006BD002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5025BA4D1E540160006BD002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5025BA4F1E540160006BD002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E8A6038A41C222939C7A544 /* Pods-ATSAppStructure.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ATSAppStructure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewshen.ATSAppStructure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5025BA501E540160006BD002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 906442D37FAC2209FDB9427D /* Pods-ATSAppStructure.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ATSAppStructure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewshen.ATSAppStructure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5025BA521E540160006BD002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DFA253E9B1C3323F7AA7329 /* Pods-ATSAppStructureTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ATSAppStructureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewshen.ATSAppStructureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATSAppStructure.app/ATSAppStructure";
+			};
+			name = Debug;
+		};
+		5025BA531E540160006BD002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39228718D50C333FF91A899B /* Pods-ATSAppStructureTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ATSAppStructureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewshen.ATSAppStructureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATSAppStructure.app/ATSAppStructure";
+			};
+			name = Release;
+		};
+		5025BA551E540160006BD002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF7777A657F6FB0B3978E831 /* Pods-ATSAppStructureUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ATSAppStructureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewshen.ATSAppStructureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ATSAppStructure;
+			};
+			name = Debug;
+		};
+		5025BA561E540160006BD002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDC336435C2BB40533812D07 /* Pods-ATSAppStructureUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ATSAppStructureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewshen.ATSAppStructureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ATSAppStructure;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5025BA1C1E540160006BD002 /* Build configuration list for PBXProject "ATSAppStructure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5025BA4C1E540160006BD002 /* Debug */,
+				5025BA4D1E540160006BD002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5025BA4E1E540160006BD002 /* Build configuration list for PBXNativeTarget "ATSAppStructure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5025BA4F1E540160006BD002 /* Debug */,
+				5025BA501E540160006BD002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5025BA511E540160006BD002 /* Build configuration list for PBXNativeTarget "ATSAppStructureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5025BA521E540160006BD002 /* Debug */,
+				5025BA531E540160006BD002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5025BA541E540160006BD002 /* Build configuration list for PBXNativeTarget "ATSAppStructureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5025BA551E540160006BD002 /* Debug */,
+				5025BA561E540160006BD002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5025BA191E540160006BD002 /* Project object */;
+}
