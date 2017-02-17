@@ -8,6 +8,11 @@
 
 #import "ATSModuleInteractor.h"
 
+@interface ATSModuleInteractor ()
+@property (nonatomic, copy, readwrite)  NSString  *navigatorName; // <##>
+
+@end
+
 @implementation ATSModuleInteractor
 
 + (instancetype)sharedInstance {
@@ -19,34 +24,73 @@
     return sharedInstance;
 }
 
+- (void)configBaseNavigatorClassName:(NSString *)baseNaviName {
+    self.navigatorName = baseNaviName;
+}
+
 - (void)pushToVC:(UIViewController *)VC {
     [[self class] cancelPreviousPerformRequestsWithTarget:self];
-    [self performSelector:@selector(p_realPushToVC:) withObject:VC afterDelay:0.01];
+    [self performSelector:@selector(p_pushOrPresentToVC:) withObject:VC afterDelay:0.01];
 }
 
-- (void)PushToChatVC:(UIViewController *)VC {
-    [[self class] cancelPreviousPerformRequestsWithTarget:self];
-    [self performSelector:@selector(p_realPushToChatVC:) withObject:VC afterDelay:0.01];
+- (void)presentToVC:(UIViewController *)VC animated:(BOOL)flag completion:(void (^)(void))completion {
+    UIViewController *originVC = [UIApplication sharedApplication].keyWindow.rootViewController;
+    [originVC presentViewController:VC animated:flag completion:completion];
 }
-
 #pragma mark - Private
-- (void)p_realPushToVC:(UIViewController *)VC {
-    UIViewController *rootViewController = [UIApplication sharedApplication].keyWindow.rootViewController;
-    UITabBarController *controller = (UITabBarController *)rootViewController;
-    UINavigationController *navi = controller.selectedViewController;
-    [VC setHidesBottomBarWhenPushed:YES];
-    [navi pushViewController:VC animated:YES];
+- (UINavigationController *)p_topNavigationControllerFromVC:(UIViewController *)VC {
+    if ([VC isKindOfClass:[UITabBarController class]]) {
+        UITabBarController *controller = (UITabBarController *)VC;
+        UIViewController *selectVC = controller.selectedViewController;
+        [VC setHidesBottomBarWhenPushed:YES];
+        return [self p_topNavigationControllerFromVC:selectVC];
+    }
+    else if ([VC isKindOfClass:[UINavigationController class]]) {
+        UINavigationController *navi = (UINavigationController *)VC;
+        UIViewController *topVC = navi.topViewController;
+        if (!topVC.presentedViewController) {
+            return navi;
+        }
+        else {
+            return [self p_topNavigationControllerFromVC:topVC.presentedViewController];
+        }
+    }
+    else if ([VC isKindOfClass:[UIViewController class]]) {
+        if (!VC.presentedViewController) {
+            return nil;
+        }
+        else {
+            return [self p_topNavigationControllerFromVC:VC.presentedViewController];
+        }
+    }
+    return nil;
 }
 
-- (void)p_realPushToChatVC:(UIViewController *)VC {
-    UIViewController *rootViewController = [UIApplication sharedApplication].keyWindow.rootViewController;
-    UITabBarController *controller = (UITabBarController *)rootViewController;
-    controller.selectedIndex = 2;
-    UINavigationController *navi = controller.selectedViewController;
-    [navi popToRootViewControllerAnimated:NO];
-    [VC setHidesBottomBarWhenPushed:YES];
+- (void)p_pushOrPresentToVC:(UIViewController *)targetVC {
+    UIViewController *originVC = [UIApplication sharedApplication].keyWindow.rootViewController;
     
-    [navi pushViewController:VC animated:YES];
+    UINavigationController *navi = [self p_topNavigationControllerFromVC:originVC];
+    if (navi) {
+        [navi pushViewController:targetVC animated:YES];
+    }
+    else {
+        if (!self.navigatorName) {
+            navi = [[UINavigationController alloc] initWithRootViewController:targetVC];
+        }
+        else {
+            Class className = NSClassFromString(self.navigatorName);
+            navi = [[className alloc] initWithRootViewController:targetVC];
+        }
+        UIBarButtonItem *close = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(p_closePresentedControllerCompletion:)];
+        NSMutableArray *items = [NSMutableArray arrayWithArray:targetVC.navigationItem.leftBarButtonItems];
+        [items insertObject:close atIndex:0];
+        [targetVC.navigationItem setLeftBarButtonItems:items];
+        [originVC presentViewController:navi animated:YES completion:nil];
+    }
 }
 
+- (void)p_closePresentedControllerCompletion: (void (^)(void))completion {
+    UIViewController *rootViewController = [UIApplication sharedApplication].keyWindow.rootViewController;
+    [rootViewController dismissViewControllerAnimated:YES completion:completion];
+}
 @end

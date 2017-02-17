@@ -11,12 +11,15 @@
 
 @interface ATSModuleInteractor : NSObject
 
+@property (nonatomic, copy, readonly)  NSString  *navigatorName; // <##>
+
 + (instancetype)sharedInstance;
+
+- (void)configBaseNavigatorClassName:(NSString *)baseNaviName;
 
 // 普通push
 - (void)pushToVC:(UIViewController *)VC;
 
-// 强制跳转rootView再push
-- (void)PushToChatVC:(UIViewController *)VC;
+- (void)presentToVC:(UIViewController *)VC animated:(BOOL)flag completion:(void (^)(void))completion;
 
 @end
